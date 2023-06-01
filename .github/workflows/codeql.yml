@@ -93,7 +93,7 @@ jobs:
     - name: Upload result to GitHub Code Scanning
       uses: github/codeql-action/upload-sarif@v2
       with:
-        sarif_file: test6.sarif
+        sarif_file: test7.sarif
         
     - name: Does the file do
       run: echo "$(cat processed.sarif)"
